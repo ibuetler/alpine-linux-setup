@@ -23,4 +23,3 @@ git clone git@github.com:Hacking-Lab/alpine-nginx-tutorial.git
 git clone git@github.com:Hacking-Lab/alpine-nginx-proxy-siab.git
 git clone git@github.com:Hacking-Lab/alpine-gotty.git
 git clone git@github.com:Hacking-Lab/alpine-gotty-hacker.git
-git clone git@github.com:Hacking-Lab/alpine-nginx-websocketd-nodejs-ui.git

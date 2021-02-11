@@ -25,3 +25,18 @@ echo "background=/home/ibuetler/wallpaper/compass.jpg" >> /etc/lightdm/lightdm-g
 # set background image in accountsservice
 cp ./ibuetler/ibuetler /var/lib/AccountsService/users
 chown root:root /var/lib/AccountsService/users/ibuetler
+
+# add user to docker
+addgroup ibuetler docker
+
+# enable copy paste in vmware
+chmod g+s /usr/bin/vmware-user-suid-wrapper
+
+# give ibuetler write access to /opt dir
+chown ibuetler:ibuetler /opt
+
+# mkdir /opt/docker
+mkdir -p /opt/docker
+chown ibuetler:ibuetler /opt/docker
+
+

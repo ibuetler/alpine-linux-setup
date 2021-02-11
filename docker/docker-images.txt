@@ -23,4 +23,3 @@ alpine-nginx-tutorial
 alpine-nginx-proxy-siab
 alpine-gotty
 alpine-gotty-hacker
-alpine-nginx-websocketd-nodejs-ui
