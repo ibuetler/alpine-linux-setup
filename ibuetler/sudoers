@@ -1,5 +1,3 @@
 ## Ivan Buetler
 ibuetler ALL=(ALL) ALL
 ibuetler ALL=(ALL) NOPASSWD: /sbin/poweroff /sbin/reboot /usr/sbin/openvpn /bin/mount
-
-
