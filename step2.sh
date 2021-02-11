@@ -8,9 +8,21 @@ apk add mesa-gl glib feh
 apk add firefox-esr
 apk add accountsservice
 
+# add user
+adduser ibuetler
+mkdir -p /home/ibuetler/wallpaper
+mkdir -p /home/ibuetler/.config/i3
+
+# wallpapers
+cp ./ibuetler/wallpaper/compass.jpg /home/ibuetler/wallpaper/compass.jpg
+cp ./ibuetler/.config/i3/config /home/ibuetler/.config/i3/config
+cp ./ibuetler/.profile /home/ibuetler/.profile
+chown -R ibuetler:ibuetler /home/ibuetler
+cat ./sudoers >> /etc/sudoers
+
+# greeter background
 echo "background=/home/ibuetler/wallpaper/compass.jpg" >> /etc/lightdm/lightdm-gtk-greeter.conf
 
+# set background image in accountsservice
 cp ./ibuetler/ibuetler /var/lib/AccountsService/users
 chown root:root /var/lib/AccountsService/users/ibuetler
-
-

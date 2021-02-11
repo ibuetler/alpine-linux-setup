@@ -12,5 +12,3 @@ cp ./ibuetler/wallpaper/compass.jpg /home/ibuetler/wallpaper/compass.jpg
 cp ./ibuetler/.config/i3/config /home/ibuetler/.config/i3/config
 cp ./ibuetler/.profile /home/ibuetler/.profile
 chown -R ibuetler:ibuetler /home/ibuetler
-
-
