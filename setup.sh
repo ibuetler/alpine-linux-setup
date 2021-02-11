@@ -1,5 +1,8 @@
 #!/bin/ash
 
+echo "http://dl-cdn.alpinelinux.org/alpine/v3.13/community" >> /etc/apk/repositories
+apk update
+apk upgrade
 apk add curl socat nmap net-tools build-base setxkbmap sudo xrandr bash termite
 apk add setup-xorg-base xfce4 xfce4-terminal ligthdm-gtk-greeter dbus-x11 i3wm
 apk add open-vm-tools open-vm-tools-guestinfo open-vm-tools-deploypkg open-vm-tools-gtk
