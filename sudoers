@@ -1,0 +1,5 @@
+## Ivan Buetler
+ibuetler ALL=(ALL) ALL
+ibuetler ALL=(ALL) NOPASSWD: /usr/bin/poweroff /usr/bin/reboot /usr/bin/openvpn /usr/bin/mount
+
+
