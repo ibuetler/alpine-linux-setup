@@ -37,6 +37,7 @@ chown ibuetler:ibuetler /opt
 
 # mkdir /opt/docker
 mkdir -p /opt/docker
+cp ./docker/* /opt/docker/
 chown ibuetler:ibuetler /opt/docker
 
 
