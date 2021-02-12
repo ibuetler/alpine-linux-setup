@@ -10,7 +10,7 @@ for i in `cat docker-images.txt`; do
         git commit -a -m "update"
         git push
 
-	./build.sh 3.2
+	./build-release.sh 3.2
 	echo "=========================================="
         echo "END building $i"
         echo "=========================================="
