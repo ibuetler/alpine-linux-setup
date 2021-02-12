@@ -7,6 +7,7 @@ for i in `cat docker-images.txt`; do
 	echo "START building $i"
 	echo "=========================================="
 	cd "$mydir/$i"
+	git config pull.rebase false
 	git pull
         git add .
         git commit -a -m "update"

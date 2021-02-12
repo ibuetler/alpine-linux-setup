@@ -5,6 +5,7 @@ for i in `cat docker-images.txt`; do
 	echo "START GIT $i"
 	echo "=========================================="
 	cd "/opt/$i"
+	git config pull.rebase false
 	git pull
 	git status
 	git add .
