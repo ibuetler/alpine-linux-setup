@@ -10,6 +10,7 @@ Alpine Linux Setup
 
 ## Auto Personalization
 * login as `root`
+* `apk add git`
 * `git clone https://github.com/ibuetler/alpine-linux-setup`
 * `cd alpine-linux-setup`
 * `./setup.sh`
