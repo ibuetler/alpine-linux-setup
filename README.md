@@ -18,9 +18,10 @@ Alpine Linux Setup
 * login as `ibuetler`
 * ssh-keygen
 * copy `id_rsa.pub` to SSH keys on github
-* ```
+* 
+````
 eval `ssh-agent -s`
-```
+````
 * `ssh-add`
 * `cd /opt/docker`
 * `./clone.sh`
