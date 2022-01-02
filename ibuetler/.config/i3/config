@@ -27,8 +27,9 @@ font pango:monospace 8
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # TERMINAL
-bindsym $mod+Return exec termite
+#bindsym $mod+Return exec termite
 #bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec xfce4-terminal
 bindsym $mod+Control+r exec sudo alacritty -e zsh
 bindsym $mod+Control+g exec /usr/bin/google-chrome
 bindsym $mod+Control+u exec /usr/bin/google-chrome --disable-web-security --no-sandbox --user-data-dir=/tmp/cyberchef https://gchq.github.io/CyberChef/
